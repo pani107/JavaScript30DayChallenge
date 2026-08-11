@@ -16,7 +16,7 @@ class Solution {
 
     private int dfs(int[] arr, int d, int i, int[] dp) {
 
-        // Already calculated
+        // Already calculated.
         if (dp[i] != 0) {
             return dp[i];
         }
